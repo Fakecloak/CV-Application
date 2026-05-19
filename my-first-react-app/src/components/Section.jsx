@@ -1,5 +1,23 @@
-import {useState} from 'react'
 
-export default function Section() {
-    
+export default function Section(props) {
+    return(
+        <div className='section'>
+            <h2>{props.title}</h2>
+
+            {props.submitted === false ? (
+                <form  onSubmit = {props.handleSubmit}>
+                    {props.children}
+
+                    <button type = 'submit' >Submit</button>
+                </form>
+            ) : (
+                <div>
+                    {props.displayData}
+
+                    <button onClick = {props.handleEdit}>Edit</button>
+                </div>
+            )}
+
+        </div>
+    );
 }
