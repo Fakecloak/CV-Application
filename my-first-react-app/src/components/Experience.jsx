@@ -28,12 +28,13 @@ export default function Experience() {
 
         displayData = {
             <div>
-                <p>company name: {company}</p>
-                <p>position: {position}</p>
+                <p>Company Name: {company}</p>
+                <p>Position: {position}</p>
                 <p>Main Responsibilities: {responsibilities}</p>
                 <p>Duration of Work: {duration}</p>
             </div>
         }
+
         >
             <input type="text" placeholder="Google" value={company} onChange={(e) => setCompany(e.target.value)} />
             <br />

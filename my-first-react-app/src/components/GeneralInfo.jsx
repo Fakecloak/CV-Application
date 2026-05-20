@@ -26,9 +26,9 @@ export default function GeneralInfo() {
 
         displayData = {
             <div>
-                <p>name: {name}</p>
-                <p>email: {email}</p>
-                <p>phone: {phone}</p>
+                <p>Name: {name}</p>
+                <p>Email: {email}</p>
+                <p>Phone: {phone}</p>
             </div>
         }
 

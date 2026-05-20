@@ -27,14 +27,14 @@ export default function Educational() {
 
         displayData = {
             <div>
-                <p>school name: {schoolName}  </p>
-                <p>studied: {study} </p>
-                <p>year of passing: {year}</p>
+                <p>College Name: {schoolName}  </p>
+                <p>Degree: {study} </p>
+                <p>Year of Passing: {year}</p>
             </div>
         }
 
         >
-            <input type="text" placeholder="school name" value={schoolName} onChange={(e) => setSchoolName(e.target.value)} />
+            <input type="text" placeholder="college name" value={schoolName} onChange={(e) => setSchoolName(e.target.value)} />
             <br />
             <input type="text" placeholder="degree" value={study} onChange={(e) => setStudy(e.target.value)} />
             <br />
