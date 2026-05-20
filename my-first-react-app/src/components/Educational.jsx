@@ -39,7 +39,7 @@ export default function Educational() {
             <input type="text" placeholder="degree" value={study} onChange={(e) => setStudy(e.target.value)} />
             <br />
             <input type="number" placeholder="year" value={year} onChange={(e) => setYear(e.target.value)}
-            min="1989" max="2026" placeholder="2004" />
+            min="1989" max="2026" />
             
 
         </Section>
