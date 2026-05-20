@@ -1,5 +1,5 @@
 import GeneralInfo from './components/GeneralInfo';
-import EducationalExperience from './components/EducationalExperience';
+import Educational from './components/Educational';
 function App() {
 
   return (
