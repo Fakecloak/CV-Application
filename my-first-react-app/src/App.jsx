@@ -1,7 +1,7 @@
 import GeneralInfo from './components/GeneralInfo';
 import Educational from './components/Educational';
 import Experience from './components/Experience';
-
+import './App.css';
 function App() {
 
   return (
