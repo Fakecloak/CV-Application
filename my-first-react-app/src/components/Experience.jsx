@@ -35,15 +35,18 @@ export default function Experience() {
             </div>
         }
         >
-            <input type="text" placeholder="Company" value={company} onChange={(e) => setCompany(e.target.value)} />
-            <input type="text" placeholder="Position" value={position} onChange={(e) => setPosition(e.target.value)} />
-            <textarea  placeholder="I build websites..." value={responsibilities} onChange={(e) => setResponsibilities(e.target.value)} />
-            <input type="text" placeholder="Duration" value={duration} onChange={(e) => setDuration(e.target.value)} />
+            <input type="text" placeholder="Google" value={company} onChange={(e) => setCompany(e.target.value)} />
+            <br />
+            <input type="text" placeholder="Frontend Developer" value={position} onChange={(e) => setPosition(e.target.value)} />
+            <br />
+            <textarea  name="responsibilities" placeholder="I build websites..." rows="4" value={responsibilities} onChange={(e) => setResponsibilities(e.target.value)} />
+            <br />
+            <input type="text" placeholder="2022 - Present" value={duration} onChange={(e) => setDuration(e.target.value)} />
 
 
 
         </Section>
 
-    )
+    );
 
 }
