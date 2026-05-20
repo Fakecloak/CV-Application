@@ -33,10 +33,11 @@ export default function Educational() {
         }
 
         >
-            <input type="text" placeholder="school name" value={schoolName} onChange={(e) => setSchoolName(e.target.value)} ></input>
-            <input type="text" placeholder="degree" value={study} onChange={(e) => setStudy(e.target.value)} ></input>
-            <input type="year" placeholder="year" value={year} onChange={(e) => setYear(e.target.value)} ></input>
-
+            <input type="text" placeholder="school name" value={schoolName} onChange={(e) => setSchoolName(e.target.value)} />
+            <br />
+            <input type="text" placeholder="degree" value={study} onChange={(e) => setStudy(e.target.value)} />
+            <br />
+            <input type="year" placeholder="year" value={year} onChange={(e) => setYear(e.target.value)} />
             
 
         </Section>
