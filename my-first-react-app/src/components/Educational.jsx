@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Section from "./Section";
 
 export default function Educational() {
 
@@ -13,7 +14,7 @@ export default function Educational() {
         setSubmitted(true);
     }
 
-    const handleEdit = () => {
+    const handleEdit = (e) => {
         setSubmitted(false)
     }
 
@@ -37,7 +38,8 @@ export default function Educational() {
             <br />
             <input type="text" placeholder="degree" value={study} onChange={(e) => setStudy(e.target.value)} />
             <br />
-            <input type="year" placeholder="year" value={year} onChange={(e) => setYear(e.target.value)} />
+            <input type="number" placeholder="year" value={year} onChange={(e) => setYear(e.target.value)}
+            min="1989" max="2026" placeholder="2004" />
             
 
         </Section>
