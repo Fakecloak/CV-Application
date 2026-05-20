@@ -20,6 +20,10 @@ export default function GeneralInfo() {
     return(
         <Section 
         title="General Information"
+        handleSubmit = {handleSubmit}
+        handleEdit = {handleEdit}
+        submitted = {submitted}
+
         displayData = {
             <div>
                 <p>name: {name}</p>
@@ -27,9 +31,6 @@ export default function GeneralInfo() {
                 <p>phone: {phone}</p>
             </div>
         }
-        handleSubmit = {handleSubmit}
-        handleEdit = {handleEdit}
-        submitted = {submitted}
 
         >
 
