@@ -7,13 +7,13 @@ export default function Section(props) {
             {props.submitted === false ? (
                 <form  onSubmit = {props.handleSubmit}>
                     {props.children}
-
+                    <br />
                     <button type = 'submit' >Submit</button>
                 </form>
             ) : (
                 <div>
                     {props.displayData}
-
+                    <br />
                     <button onClick = {props.handleEdit}>Edit</button>
                 </div>
             )}

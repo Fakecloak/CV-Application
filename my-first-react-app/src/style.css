@@ -12,6 +12,11 @@ body{
   font-family: 'Arial', sans-serif;
 }
 
+.app {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
 .section {
   padding: 20px;
 }
