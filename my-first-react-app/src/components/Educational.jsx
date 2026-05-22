@@ -19,6 +19,7 @@ export default function Educational() {
     }
 
     return (
+        <div className="educational">
         <Section  className="educational"
         title="Education"
         submitted = {submitted}
@@ -42,6 +43,7 @@ export default function Educational() {
             
 
         </Section>
+        </div>
     );
 
 }

@@ -20,7 +20,8 @@ export default function Experience() {
     }
 
     return (
-        <Section className="experience"
+        <div className="experience">
+        <Section
         title="Experience"
         handleSubmit={handleSubmit}
         submitted={submitted}
@@ -47,6 +48,7 @@ export default function Experience() {
 
 
         </Section>
+        </div>
 
     );
 

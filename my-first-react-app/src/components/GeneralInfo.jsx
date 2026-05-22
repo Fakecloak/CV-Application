@@ -18,6 +18,7 @@ export default function GeneralInfo() {
     }
 
     return(
+        <div className="general-info">
         <Section 
         title="General Information"
         handleSubmit = {handleSubmit}
@@ -43,5 +44,6 @@ export default function GeneralInfo() {
 
 
         </Section>
+        </div>
     );
 }
