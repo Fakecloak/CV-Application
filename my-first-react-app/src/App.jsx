@@ -9,6 +9,7 @@ function App() {
   return (
     <div className="app">
       <Navbar />
+      <h1 className="section-title">CV Application</h1>
       <GeneralInfo />
       <Educational />
       <Experience /> 
