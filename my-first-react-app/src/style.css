@@ -10,16 +10,17 @@ html{
 
 body{
   font-family: 'Arial', sans-serif;
-}
-
-.app {
-  display: flex;
+   display: flex;
   flex-direction: column;
+  align-items: center;
   max-width: 75rem;
   margin: 0 auto;
-  
 }
 
+.navbar{
+  display: flex;
+  justify-content: space-between;
+}
 
 h1 {
     font-size: 2.5rem;
@@ -31,6 +32,12 @@ h2 {
 
 .section {
     padding: 1.25rem;
+}
+
+.educational, .experience {  
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 input {

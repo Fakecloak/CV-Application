@@ -20,7 +20,7 @@ export default function Experience() {
     }
 
     return (
-        <Section
+        <Section className="experience"
         title="Experience"
         handleSubmit={handleSubmit}
         submitted={submitted}

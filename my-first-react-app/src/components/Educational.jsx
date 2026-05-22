@@ -19,7 +19,7 @@ export default function Educational() {
     }
 
     return (
-        <Section  
+        <Section  className="educational"
         title="Education"
         submitted = {submitted}
         handleSubmit = {handleSubmit}
