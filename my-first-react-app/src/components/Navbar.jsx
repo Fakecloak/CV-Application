@@ -5,7 +5,7 @@ export default function Navbar() {
   }
     return (
         <nav className="navbar">
-            <h2 className="navbar-title">CV Application</h2>
+            <h2 className="navbar-title">CV Maker</h2>
 
             <button className="navbar-button" onClick={downloadCV}>
                 Download CV
