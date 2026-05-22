@@ -69,3 +69,16 @@ form {
   flex-direction: column;
   gap: 0.2rem;
 }
+
+/* for printers */
+@media print {
+
+  button {
+    display: none;
+  }
+
+  body {
+    background-color: white;
+  }
+
+}
