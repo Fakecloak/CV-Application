@@ -1,2 +1,9 @@
-# Live Link 
+# CV Application
+A simple, clean, and responsive CV builder built with React and Vite as part of The Odin Project curriculum.
+
+This app allows users to fill in their personal information, education, and work experience, then toggle between an editable form view and a beautifully formatted preview that resembles a real resume.
+
+
+---------
+## Live Link 
 https://cv-application-one-sigma.vercel.app/
